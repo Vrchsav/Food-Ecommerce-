@@ -6,6 +6,7 @@ export const StoreContext = createContext(null)
 export const StoreContextProvider = (props) => {
 
     const [cartItems, setCartItems] = useState([]);
+    const [loading, setLoading] = useState(true);
     
      const  url="https://food-ecommerce-backend-rv1x.onrender.com"
     const [token,setToken]=useState("")
@@ -49,6 +50,7 @@ export const StoreContextProvider = (props) => {
     const fetchFoodList = async () => {
         const response = await axios.get(url+"/api/food/list")
         setFoodList(response.data.data)
+        setLoading(false)
     }
     const loadCartData = async ( token) => {
         const response = await axios.post(url+"/api/cart/get",{},{headers:{token}})
@@ -76,7 +78,8 @@ export const StoreContextProvider = (props) => {
             getTotalCartAmount,
             url,
             setToken,
-            token
+            token,
+            loading
         }
 
         return (<StoreContext.Provider value={contextValue}>
