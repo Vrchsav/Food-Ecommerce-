@@ -30,6 +30,7 @@ The Food E-Commerce Platform is a full-featured e-commerce application built to 
 - **Cart & Checkout**: Seamlessly add items to the cart, adjust quantities, and checkout with a simple workflow.
 ![Cart & Checkout](/frontend/src/assets/Screenshot%202024-11-05%20151631.png)
 - **Order Management**: Customers can view their order history, while admins have full control over all orders.
+![Order Management](/frontend/src/assets/Screenshot%202024-11-05%20154349.png)
 
 - **Admin Dashboard**: An interactive admin panel for managing products, categories, and user accounts.
 ![Admin Dashboard](/frontend/src/assets/Screenshot%202024-11-05%20153101.png)
