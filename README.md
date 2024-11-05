@@ -33,7 +33,9 @@ The Food E-Commerce Platform is a full-featured e-commerce application built to 
 - **Order Management**: Customers can view their order history, while admins have full control over all orders.
 
 - **Admin Dashboard**: An interactive admin panel for managing products, categories, and user accounts.
+![Admin Dashboard](/frontend/src/assets/Screenshot%202024-11-05%20153101.png)
 - **Responsive UI**: Optimized for various devices, including desktop, tablet, and mobile.
+![Responsive UI](/frontend/src/assets/Screenshot%202024-11-05%20153245.png)
 
 ## Tech Stack
 
