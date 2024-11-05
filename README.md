@@ -136,7 +136,8 @@ Food-Ecommerce/
 The backend API uses REST principles and provides the following routes: 
 ### Authentication 
 * `POST /api/auth/login` - Log in user 
-* `POST /api/auth/register` - Register a new user ### Products 
+* `POST /api/auth/register` - Register a new user 
+### Products 
 * `GET /api/products` - Retrieve all products
 * `GET /api/products/:id` - Get details of a specific product 
 * `POST /api/products` - Create a new product (Admin only) 
@@ -158,4 +159,4 @@ We welcome contributions from the community to help improve this platform! Pleas
 2. **Clone your fork** to your local machine. 
 3. **Create a new branch** for your feature or bug fix. 
 4. **Commit your changes** with clear, descriptive messages. 
-5. **Push to your fork** and submit a Pull Request to the main branch.”
+5. **Push to your fork** and submit a Pull Request to the main branch.
