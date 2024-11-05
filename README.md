@@ -14,7 +14,6 @@ Welcome to the Food E-Commerce Platform! This is a powerful and responsive web a
 - [Project Structure](#project-structure)
 - [API Endpoints](#api-endpoints)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
