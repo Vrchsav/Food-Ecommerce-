@@ -82,7 +82,8 @@ cd ../admin npm install
 ### Environment Variables 
 Create an `.env` file in the `backend` directory and configure your environment variables for MongoDB, authentication, and other secrets:
 ```bash  
-MONGO_URI=your_mongodb_connection_string JWT_SECRET=your_jwt_secret
+MONGO_URI=your_mongodb_connection_string 
+JWT_SECRET=your_jwt_secret
  ```
 ## Usage Guide 
 ### Running the Application
